@@ -1,0 +1,15 @@
+{
+  "name": "rolldown-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node run.mjs"
+  },
+  "license": "ISC",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "rolldown": "^1.2.13",
+    "rollup": "^4.64.2"
+  }
+}
